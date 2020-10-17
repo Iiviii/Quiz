@@ -1,0 +1,127 @@
+body {
+    background-color: #ffb5fa;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+*:focus {
+    outline: none;
+}
+.header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 0 100px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+}
+.logo{
+    height: 90px;
+    margin: 15px 0px;
+}
+.category-title{
+    font-size: 14px !important;
+    margin: 5px 10px;
+    color: #664d64;
+}
+#category{
+    height: 40px;
+    border: 1px solid #664d64;
+    border-radius: 20px;
+    padding: 0px 15px;
+    color: #664d64;
+    background-color: #ffedc7;
+    cursor: pointer;
+}
+.form, .form-group, header{
+    display: flex;
+    align-items: center;
+}
+  
+.btn {
+    padding: 0px 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #4fc1e9;
+    transition-duration: 0.5s;
+}
+  
+.btn:hover {
+    background-color: #3e8dc9;
+}
+  
+.card-grid {
+    width: 70%;
+    margin: 0 auto;
+}
+  
+.card {
+    display: flex;
+    min-width: 280px;
+    border-radius: .25rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+    background-color: white;
+    height: auto;
+    margin: 20px 0px;
+    padding: 15px 30px;
+}
+  
+.card:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+.question{
+    font-size: 18px;
+    font-weight: 550;
+}
+.flashcard-option {
+    margin-top: 10px;
+    color: #664d64;
+    font-size: 16px;
+}
+.answer{
+    margin-top: 30px;
+    width: 280px;
+    color: #ffb5fa;
+}
+
+#bg{
+    color: #4fc1e9;
+    background-color: #4fc1e9;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.red{
+    background-color: #ffedc7 !important;
+    color: #664d64 !important;
+}
+@media only screen and (min-width: 1200px) {
+    .header{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    .card-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 768px) {
+    .card-grid {
+        width: 95%;
+    }
+    .header {
+        padding: 0px 30px 20px 30px;
+    }
+    .form{
+        flex-direction: column;
+    }
+    #category{
+        margin: 20px 0px;
+    }
+    
+}
