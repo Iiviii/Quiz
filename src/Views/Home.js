@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import FlashcardList from '../FlashcardList';
 import '../App.css'
-import logo from '../Images/Swift-Digital-Logo.png'
+import logo from '../Images/sakura.png'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
 
